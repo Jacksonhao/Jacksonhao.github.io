@@ -5,8 +5,14 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaScript基础学习笔记, 我关键字">
-    <meta name="description" content="1.js标签：               &amp;lt;script&amp;gt;                //js代码（仅仅补位）                &amp;lt;*/script&amp;gt;  2.是什么                 ">
+    <meta name="keywords" content="JavaScript学习, 我关键字">
+    <meta name="description" content="1.js标签： &amp;lt;script&amp;gt;
+ //js代码书写位置 
+ &amp;lt;/script&amp;gt;  
+2.js干什么用：   1.定义事件（时机+行为）；
+   2. 触发事件（行为发生）；
+   3. 事件发生是具有重复性；
+3.">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +20,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>JavaScript基础学习笔记 | Jacksonhao&#39;s blog</title>
+    <title>JavaScript学习 | Jacksonhao&#39;s blog</title>
     <link rel="icon" type="image/png" href="/favicon_logo_headpic.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -247,13 +253,13 @@
 
 
 
-<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        JavaScript基础学习笔记
+                        JavaScript学习
                     </div>
                 </div>
             </div>
@@ -372,36 +378,69 @@
             
             <div class="post-info">
                 
+                <span class="post-cate">
+                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                    
+                    <a href="/categories/学习记录/" class="post-category" target="_blank">
+                        学习记录
+                    </a>
+                    
+                </span>
+                
 
                 <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-11-29
+                    <i class="fa fa-clock-o fa-fw"></i>2017-12-05
                 </span>
             </div>
         </div>
         <hr>
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><strong>1.js标签</strong>：<br>               &lt;<em>script&gt;<br>                //js代码（</em>仅仅补位）<br>                &lt;*/script&gt;<br>  <strong>2.是什么</strong><br>                    1.定义事件（时机+行为）；</p>
-<pre><code>                 2. 触发事件（行为发生）；
-                3. 事件发生是具有重复性;
-**3.是基于对象编程**
-1.如何获得该对象；
+                <h4 id="1-js标签："><a href="#1-js标签：" class="headerlink" title="1.js标签："></a>1.js标签：</h4><pre><code> &lt;script&gt;
+ //js代码书写位置 
+ &lt;/script&gt;  
+</code></pre><h4 id="2-js干什么用："><a href="#2-js干什么用：" class="headerlink" title="2.js干什么用："></a>2.js干什么用：</h4><pre><code>   1.定义事件（时机+行为）；
+   2. 触发事件（行为发生）；
+   3. 事件发生是具有重复性；
+</code></pre><h4 id="3-js同样具有面向对象编程的思想"><a href="#3-js同样具有面向对象编程的思想" class="headerlink" title="3.js同样具有面向对象编程的思想"></a>3.js同样具有面向对象编程的思想</h4><pre><code>1.如何获得该对象；
 2.如何调用该对象的属性；
 3.如何调用该对象的方法；
 对象的组成：属性（特征），方法（行为）；
-**4.js的放置问题**:
-在后；与css不同，很随便；
-执行顺序：内联，内部，外部；
-**5.变量的定义：**
-  usename=&quot;jackson&quot;;
+</code></pre><h4 id="4-js的放置问题"><a href="#4-js的放置问题" class="headerlink" title="4.js的放置问题:"></a>4.js的放置问题:</h4><pre><code>（1）在后；与css不同，很随便；
+（2）执行顺序：内联，内部，外部；
+</code></pre><h4 id="5-变量的定义："><a href="#5-变量的定义：" class="headerlink" title="5.变量的定义："></a>5.变量的定义：</h4><pre><code>  usename=&quot;jackson&quot;;
   字符串连接变量：&quot;my name is &quot;+usename+&quot;等于&quot;+z；
-  **6.变量的输出：**
-  alert(&quot;&quot;)；
+</code></pre><h4 id="6-变量的输出："><a href="#6-变量的输出：" class="headerlink" title="6.变量的输出："></a>6.变量的输出：</h4><pre><code>  alert(&quot;&quot;)；
   document.write(&quot;&quot;); 
-</code></pre><p><strong>7.js的数据  类型：</strong><br>1.字符串；2.整型；3.浮点型；4.布尔类型；<br>5.数组类型:<br>数组名=new Array( , ,  , , )或者数组名=[,,,,,]；显示时，alert（数组名）：<br>6.对象类型:<br>1.js对象：<br>obj=new object();<br>obj.uername=’jackson’;<br>obj.sex=’男’；<br>obj.say=function(）{<br>alert（‘my name id jackson’）；<br>}</p>
-<p>document.write(obj.username);<br>2.dom对象：<br>eleobj=document;</p>
-<p>7.json类型:<br>    jsobj={<br>        ‘username’:’jackson’,<br>        ‘sex’:’男’,<br>        ‘age’:’20’,<br>        ‘say’:function(){<br>        alert(‘json对象’)<br>                         }<br>    }；<br>8.NAN:（not a number）;<br>9.null;10.undefined;<br><strong>8.变量的作用范围</strong><br>1.全局变量：变量名前没有关键字var的都是全局变量；<br>2.局部变量：有关键字的变量叫局部变量，且只能出现函数内部；</p>
+</code></pre><h4 id="7-js的数据类型："><a href="#7-js的数据类型：" class="headerlink" title="7.js的数据类型："></a>7.js的数据类型：</h4><pre><code>    1.字符串；2.整型；3.浮点型；4.布尔类型；
+    5.数组类型:数组名=new Array( , ,  , , )或者数组名=[,,,,,]；显示时，alert（数组名）：
+    6.对象类型:
+           （1）js对象：
+            obj=new object();
+            obj.uername=&#39;jackson&#39;;
+            obj.sex=&#39;男&#39;；
+            obj.say=function(）{
+            alert（‘my name id jackson’）；
+            }
 
+            document.write(obj.username);
+            （2）dom对象：
+                 eleobj=document;
+
+    7.json类型:
+        jsobj={
+            &#39;username&#39;:&#39;jackson&#39;,
+            &#39;sex&#39;:&#39;男&#39;,
+            &#39;age&#39;:&#39;20&#39;,
+            &#39;say&#39;:function(){
+            alert(&#39;json对象&#39;)
+                             }
+        }；
+    8.NAN:（not a number）;
+    9.null;10.undefined;
+</code></pre><h4 id="8-变量的作用范围"><a href="#8-变量的作用范围" class="headerlink" title="8.变量的作用范围"></a>8.变量的作用范围</h4><pre><code>1.全局变量：变量名前没有关键字var的都是全局变量；
+2.局部变量：有关键字的变量叫局部变量，且只能出现函数内部；
+</code></pre>
             </div>
             <hr>
 
@@ -539,7 +578,7 @@
                     <span class="reprint-tip">转载请注明: </span>
                     <a href="https://jacksonhao.github.io" class="b-link-green">Jacksonhao's blog</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2018/11/29/JavaScript基础学习笔记/" class="b-link-green">JavaScript基础学习笔记</a>
+                    <a href="/2017/12/05/JavaScript基础学习笔记/" class="b-link-green">JavaScript学习</a>
                 </p>
             </div>
         </div>
@@ -558,7 +597,7 @@
 <script src="/libs/gitment/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-    id: 'Thu Nov 29 2018 18:41:35 GMT+0800',
+    id: 'Tue Dec 05 2017 18:41:35 GMT+0800',
     owner: '',
     repo: '',
     oauth: {
@@ -585,25 +624,34 @@ gitment.render('gitment-content');
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">上一篇</div>
             <div class="card">
-                <a href="/2018/11/29/初始单片机/">
+                <a href="/2017/12/07/学习笔记/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="单片机">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="学习笔记">
                         
-                        <span class="card-title">单片机</span>
+                        <span class="card-title">学习笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">1.什么是单片机？原名的单板机，一片集成电路芯片上集成微处理器，存储器，I/O接口电路，从而构成了单芯片微型计算机，即单片机；2.单片机的作用？凡是与控制或简单计算有关的电子设备都可以用单片机实现；3.基础知识：电平特性：高低；计算机的串口</div>
+                    <div class="summary">
+git查看git是否安装———–&gt;&gt;&gt;&gt;可见已经安装
+git安装的命令  sudo apt-get install git
+
+
+</div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-29
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2017-12-07
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-user fa-fw"></i>
-                            Jacksonhao
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/学习笔记/" class="post-category" target="_blank">
+                                    学习笔记
+                                </a>
+                            
                             
                         </span>
                     </div>
@@ -611,8 +659,8 @@ gitment.render('gitment-content');
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/单片机/" target="_blank">
-                        <span class="chip bg-color">单片机</span>
+                    <a href="/tags/学习笔记/" target="_blank">
+                        <span class="chip bg-color">学习笔记</span>
                     </a>
                     
                 </div>
@@ -624,25 +672,44 @@ gitment.render('gitment-content');
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">下一篇</div>
             <div class="card">
-                <a href="/2018/11/29/The ONE模拟器的Default_settings.xml文件结构分析/">
+                <a href="/2017/11/29/1_写作模板/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="The ONE模拟器的Default_settings.xml文件结构分析">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="写作模板">
                         
-                        <span class="card-title">The ONE模拟器的Default_settings.xml文件结构分析</span>
+                        <span class="card-title">写作模板</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">The ONE模拟器的Default_settings.xml文件结构分析1.场景设置：1）Scenario.name场景名称。2.接口设置（Interface-specific settings）3.主机组设置（Group-specifi</div>
+                    <div class="summary">
+添加文章图片的方式：a ![示例图片] (1_写作模板/headPic.jpg “示例图片”) a
+
+
+列表项
+
+
+列表项
+
+
+列表项
+
+
+列表项
+
+</div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-29
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-11-29
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-user fa-fw"></i>
-                            Jacksonhao
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/写作模板/" class="post-category" target="_blank">
+                                    写作模板
+                                </a>
+                            
                             
                         </span>
                     </div>
@@ -650,8 +717,8 @@ gitment.render('gitment-content');
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/The-ONE模拟器/" target="_blank">
-                        <span class="chip bg-color">The ONE模拟器</span>
+                    <a href="/tags/写作模板/" target="_blank">
+                        <span class="chip bg-color">写作模板</span>
                     </a>
                     
                 </div>
