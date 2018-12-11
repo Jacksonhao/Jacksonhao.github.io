@@ -3,13 +3,25 @@
   
     
     <entry>
-      <title></title>
+      <title>单片机_数码管显示</title>
       <link href="/2018/12/11/51%E5%8D%95%E7%89%87%E6%9C%BA_%E6%95%B0%E7%A0%81%E7%AE%A1/"/>
       <url>/2018/12/11/51%E5%8D%95%E7%89%87%E6%9C%BA_%E6%95%B0%E7%A0%81%E7%AE%A1/</url>
       
-        <content type="html"><![CDATA[<p>1.数码管：8段数码管<br>2.数码管的接发如图：a ![示例图片] (单片机_数码管/数码管接法.png “示例图片”) a<br>3.共阴数码管码表:<br> 0x3f  , 0x06 , 0x5b , 0x4f , 0x66 , 0x6d<br>   0      ,     1    ,       2    ,  3   ,     4     ,    5<br> 0x7d , 0x07 , 0x7f  , 0x6f , 0x77 , 0x7c<br>   6    ,  7         , 8     , 9    ,    A    ,    B<br> 0x39 , 0x5e , 0x79 , 0x71 , 0x00<br>   C    ,    D     ,   E     ,    F     ,    无显示<br> 4.LED显示器工作方式有两种：静态显示方式和动态显示方式。静态显示的特点是每个数码管的段选必须接一个8位数据线来保持显示的字形码。当送入一次字形码后，显示字形可一直保持，直到送入新字形码为止。这种方法的优点是占用CPU时间少，显示便于监测和控制。缺点是硬件电路比较复杂，成本较高。</p>]]></content>
+        <content type="html"><![CDATA[<h4 id="1-数码管：8段数码管"><a href="#1-数码管：8段数码管" class="headerlink" title="1.数码管：8段数码管"></a>1.数码管：8段数码管</h4><h4 id="2-数码管的接发如图："><a href="#2-数码管的接发如图：" class="headerlink" title="2.数码管的接发如图："></a>2.数码管的接发如图：</h4><p><img src="/2018/12/11/51单片机_数码管/数码管接法.png" alt="示例图片" title="示例图片"> </p><h4 id="3-共阴数码管码表"><a href="#3-共阴数码管码表" class="headerlink" title="3.共阴数码管码表:"></a>3.共阴数码管码表:</h4><p> 0x3f  , 0x06 , 0x5b , 0x4f , 0x66 , 0x6d<br>   0      ,     1    ,       2    ,  3   ,     4     ,    5<br> 0x7d , 0x07 , 0x7f  , 0x6f , 0x77 , 0x7c<br>   6    ,  7         , 8     , 9    ,    A    ,    B<br> 0x39 , 0x5e , 0x79 , 0x71 , 0x00<br>   C    ,    D     ,   E     ,    F     ,    无显示<br> 4.LED显示器工作方式有两种：静态显示方式和动态显示方式。静态显示的特点是每个数码管的段选必须接一个8位数据线来保持显示的字形码。当送入一次字形码后，显示字形可一直保持，直到送入新字形码为止。这种方法的优点是占用CPU时间少，显示便于监测和控制。缺点是硬件电路比较复杂，成本较高。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 学习记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 单片机 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -94,17 +106,17 @@
     </entry>
     
     <entry>
-      <title>（）VirtualBox中安装ubuntu linux 无法满屏的设置</title>
-      <link href="/2017/12/07/VirtualBox%E4%B8%AD%E5%AE%89%E8%A3%85ubuntu%20linux%20%E6%97%A0%E6%B3%95%E6%BB%A1%E5%B1%8F%E7%9A%84%E8%AE%BE%E7%BD%AE/"/>
-      <url>/2017/12/07/VirtualBox%E4%B8%AD%E5%AE%89%E8%A3%85ubuntu%20linux%20%E6%97%A0%E6%B3%95%E6%BB%A1%E5%B1%8F%E7%9A%84%E8%AE%BE%E7%BD%AE/</url>
+      <title>（）The ONE在eclipse中运行</title>
+      <link href="/2017/12/07/The%20ONE%E6%A8%A1%E6%8B%9F%E5%99%A8eclipse%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
+      <url>/2017/12/07/The%20ONE%E6%A8%A1%E6%8B%9F%E5%99%A8eclipse%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</url>
       
-        <content type="html"><![CDATA[<p><strong>设置的操作如图</strong><br><img src="https://img-blog.csdn.net/20180812191701199?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>]]></content>
+        <content type="html"><![CDATA[<p><strong>1</strong>.教程连接地址：<a href="http://one-simuator-for-beginners.blogspot.com/2013/08/one-simulator-introduction.html" target="_blank" rel="noopener">http://one-simuator-for-beginners.blogspot.com/2013/08/one-simulator-introduction.html</a><br><strong>2</strong>.错误原因：配置文件的位置不对（Can’t start: error in configuration file(s) Can’t find setting ‘Scenario.nrofHostGroups’），准确说是路径问题，如图示：<br><img src="https://img-blog.csdn.net/20180602201715247?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br><strong>3</strong>.错误原因：数据文件的路径不对，如图所示：<br><img src="https://img-blog.csdn.net/20180602201916408?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br><strong>终极结果文件结构图（已测试正确运行）：</strong><br><img src="https://img-blog.csdn.net/20180602202047735?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>4.注意：运行时选择：<br><img src="https://img-blog.csdn.net/20180602202511466?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br><strong>小尾巴：希望能有帮助，一起学习，共同进步啊！</strong></p>]]></content>
       
       
       
         <tags>
             
-            <tag> linux </tag>
+            <tag> The ONE </tag>
             
         </tags>
       
@@ -128,23 +140,17 @@
     </entry>
     
     <entry>
-      <title>学习笔记</title>
-      <link href="/2017/12/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-      <url>/2017/12/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      <title>（）VirtualBox中安装ubuntu linux 无法满屏的设置</title>
+      <link href="/2017/12/07/VirtualBox%E4%B8%AD%E5%AE%89%E8%A3%85ubuntu%20linux%20%E6%97%A0%E6%B3%95%E6%BB%A1%E5%B1%8F%E7%9A%84%E8%AE%BE%E7%BD%AE/"/>
+      <url>/2017/12/07/VirtualBox%E4%B8%AD%E5%AE%89%E8%A3%85ubuntu%20linux%20%E6%97%A0%E6%B3%95%E6%BB%A1%E5%B1%8F%E7%9A%84%E8%AE%BE%E7%BD%AE/</url>
       
-        <content type="html"><![CDATA[<ul><li><strong>git查看git是否安装</strong><br><img src="https://img-blog.csdn.net/20180402163027616?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="命令的显示"><br>———–&gt;&gt;&gt;&gt;可见已经安装</li><li><strong>git安装的命令</strong><pre><code>  sudo apt-get install git</code></pre></li></ul>]]></content>
+        <content type="html"><![CDATA[<p><strong>设置的操作如图</strong><br><img src="https://img-blog.csdn.net/20180812191701199?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>]]></content>
       
-      
-      <categories>
-          
-          <category> 学习笔记 </category>
-          
-      </categories>
       
       
         <tags>
             
-            <tag> 学习笔记 </tag>
+            <tag> linux </tag>
             
         </tags>
       
@@ -202,17 +208,23 @@
     </entry>
     
     <entry>
-      <title>（）The ONE在eclipse中运行</title>
-      <link href="/2017/12/07/The%20ONE%E6%A8%A1%E6%8B%9F%E5%99%A8eclipse%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/"/>
-      <url>/2017/12/07/The%20ONE%E6%A8%A1%E6%8B%9F%E5%99%A8eclipse%E8%BF%90%E8%A1%8C%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</url>
+      <title>学习笔记</title>
+      <link href="/2017/12/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2017/12/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[<p><strong>1</strong>.教程连接地址：<a href="http://one-simuator-for-beginners.blogspot.com/2013/08/one-simulator-introduction.html" target="_blank" rel="noopener">http://one-simuator-for-beginners.blogspot.com/2013/08/one-simulator-introduction.html</a><br><strong>2</strong>.错误原因：配置文件的位置不对（Can’t start: error in configuration file(s) Can’t find setting ‘Scenario.nrofHostGroups’），准确说是路径问题，如图示：<br><img src="https://img-blog.csdn.net/20180602201715247?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br><strong>3</strong>.错误原因：数据文件的路径不对，如图所示：<br><img src="https://img-blog.csdn.net/20180602201916408?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br><strong>终极结果文件结构图（已测试正确运行）：</strong><br><img src="https://img-blog.csdn.net/20180602202047735?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>4.注意：运行时选择：<br><img src="https://img-blog.csdn.net/20180602202511466?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br><strong>小尾巴：希望能有帮助，一起学习，共同进步啊！</strong></p>]]></content>
+        <content type="html"><![CDATA[<ul><li><strong>git查看git是否安装</strong><br><img src="https://img-blog.csdn.net/20180402163027616?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="命令的显示"><br>———–&gt;&gt;&gt;&gt;可见已经安装</li><li><strong>git安装的命令</strong><pre><code>  sudo apt-get install git</code></pre></li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> The ONE </tag>
+            <tag> 学习笔记 </tag>
             
         </tags>
       
