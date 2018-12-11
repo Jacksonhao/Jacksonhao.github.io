@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>单片机_串口通信</title>
+      <link href="/2018/12/11/51%E5%8D%95%E7%89%87%E6%9C%BA_%E4%B8%B2%E5%8F%A3%E9%80%9A%E4%BF%A1/"/>
+      <url>/2018/12/11/51%E5%8D%95%E7%89%87%E6%9C%BA_%E4%B8%B2%E5%8F%A3%E9%80%9A%E4%BF%A1/</url>
+      
+        <content type="html"><![CDATA[<h4 id="1-通信方式：串行通信，并行通信；"><a href="#1-通信方式：串行通信，并行通信；" class="headerlink" title="1.通信方式：串行通信，并行通信；"></a>1.通信方式：串行通信，并行通信；</h4><h4 id="2-单片机全双工的串口通信；"><a href="#2-单片机全双工的串口通信；" class="headerlink" title="2.单片机全双工的串口通信；"></a>2.单片机全双工的串口通信；</h4><h4 id="3-异步串口的通信帧格式："><a href="#3-异步串口的通信帧格式：" class="headerlink" title="3.异步串口的通信帧格式："></a>3.异步串口的通信帧格式：</h4><p><img src="/2018/12/11/51单片机_串口通信/异步串口的通信帧格式.png" alt="示例图片" title="示例图片"></p><h4 id="4-波特率（Baud-Rate）"><a href="#4-波特率（Baud-Rate）" class="headerlink" title="4.波特率（Baud Rate）:"></a>4.波特率（Baud Rate）:</h4><p>串行通信中，传输数据的速率，也称比特率，意义是每秒传输二进制数码的位数。波特率的倒数就是每位数据传输时间。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 单片机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>单片机_数码管显示</title>
       <link href="/2018/12/11/51%E5%8D%95%E7%89%87%E6%9C%BA_%E6%95%B0%E7%A0%81%E7%AE%A1/"/>
       <url>/2018/12/11/51%E5%8D%95%E7%89%87%E6%9C%BA_%E6%95%B0%E7%A0%81%E7%AE%A1/</url>
@@ -140,6 +163,29 @@
     </entry>
     
     <entry>
+      <title>学习笔记</title>
+      <link href="/2017/12/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <url>/2017/12/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<ul><li><strong>git查看git是否安装</strong><br><img src="https://img-blog.csdn.net/20180402163027616?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="命令的显示"><br>———–&gt;&gt;&gt;&gt;可见已经安装</li><li><strong>git安装的命令</strong><pre><code>  sudo apt-get install git</code></pre></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>（）VirtualBox中安装ubuntu linux 无法满屏的设置</title>
       <link href="/2017/12/07/VirtualBox%E4%B8%AD%E5%AE%89%E8%A3%85ubuntu%20linux%20%E6%97%A0%E6%B3%95%E6%BB%A1%E5%B1%8F%E7%9A%84%E8%AE%BE%E7%BD%AE/"/>
       <url>/2017/12/07/VirtualBox%E4%B8%AD%E5%AE%89%E8%A3%85ubuntu%20linux%20%E6%97%A0%E6%B3%95%E6%BB%A1%E5%B1%8F%E7%9A%84%E8%AE%BE%E7%BD%AE/</url>
@@ -202,29 +248,6 @@
         <tags>
             
             <tag> linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>学习笔记</title>
-      <link href="/2017/12/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-      <url>/2017/12/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-      
-        <content type="html"><![CDATA[<ul><li><strong>git查看git是否安装</strong><br><img src="https://img-blog.csdn.net/20180402163027616?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phY2tzb25faGFv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="命令的显示"><br>———–&gt;&gt;&gt;&gt;可见已经安装</li><li><strong>git安装的命令</strong><pre><code>  sudo apt-get install git</code></pre></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习笔记 </tag>
             
         </tags>
       
